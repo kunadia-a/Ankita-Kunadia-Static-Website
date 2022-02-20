@@ -1,0 +1,101 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    color: wheat;
+  }
+
+  .tab {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1em;
+    text-align: center;
+    color: saddlebrown; 
+  }
+
+  table {
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    height: 50vh;
+    width: 50vw;
+    padding: 0;
+  }
+  td div {
+    border: 1px dotted gray;
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-self: center ;
+
+  }
+  td div img {
+    width: 100%;
+  }
+  body {
+    margin: 0;
+  }
+
+.my_container_div {
+    background-color: tan;
+    border: 6px lavenderblush;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px
+}
+
+p.fancy {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: saddlebrown;
+}
+
+.flex_container_div {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_left_div {
+    background-color: peru;
+}
+
+.my_center_div {
+    background-color: sienna;
+}
+
+.my_right_div {
+    background-color: saddlebrown;
+}
+
+.my_rightmost_div {
+    background-color: brown;
+}
+
+.my_div {
+    padding: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    color: papayawhip;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+
+}
